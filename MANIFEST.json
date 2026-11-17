@@ -1,0 +1,110 @@
+{
+  "package": "oracle-spatial-coast-distance",
+  "release": "2026-11-17",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "a3cf26b4752bc4e64cc37655f03145a6e34f6939752e207c8bc3fdb85a40d52f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "acb6c6fd540c55f120cca6b623dfea9ce7dd296ff694daab162b675bcb260de5"
+    },
+    {
+      "path": "convert_gsi_coastline.py",
+      "sha256": "ca3c7ac79ad0cde8d43577d0465c35d7ee5b2a2be55b124a67364ae511cf84e6"
+    },
+    {
+      "path": "data/generated/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/blog_mapping.md",
+      "sha256": "55ee703a6374c70c0d26a643bdb00f3e7b48ffc6ef2bf45b0751d0e05563dcfd"
+    },
+    {
+      "path": "docs/data_sources.md",
+      "sha256": "0c55ccb28e04b36599af52143cc547d83e41162767c3a1060056e12ad2a21195"
+    },
+    {
+      "path": "docs/local_checks.md",
+      "sha256": "8db638a43ba29f83e38b9216e36580605b2266f7f6b5aa9b022dc0ff598f1217"
+    },
+    {
+      "path": "docs/spatial_studio.md",
+      "sha256": "f4aa8bfd3fd2852dff98fd4fa9d5b27452d8ee34dea0011970eddbe9e374c18a"
+    },
+    {
+      "path": "docs/validation.md",
+      "sha256": "af29d24f36ccc0f53a0ac594fa353dc8747ba92830aabaab034248e567cd7887"
+    },
+    {
+      "path": "legacy/03_review_diagnostics.sql",
+      "sha256": "c1efeded8bd7016aded64077dcbe3f62f9e37393148d02bba9f5c0804291fd05"
+    },
+    {
+      "path": "legacy/04_coastline_repair_candidates.sql",
+      "sha256": "cc00e094db5e45c5dc7a5463d30043ae719a205a454f365cbb55546abee1dd84"
+    },
+    {
+      "path": "legacy/05_coastline_recalculate_compare.sql",
+      "sha256": "1ae6b824a6f38a9797f128bd969ec72f2a9f869518a365ffd8b09b73eeae7f23"
+    },
+    {
+      "path": "legacy/06_adopt_verified_results.sql",
+      "sha256": "8156b6e8ede338f20c71c4f0e693106e50612d284024e0e0160a3d16a7ae99d6"
+    },
+    {
+      "path": "legacy/README.md",
+      "sha256": "63672c16b767a950f3e7d177e4a736065b24132db1303e88bcda8b4dbbf5a88b"
+    },
+    {
+      "path": "prepare_lights.py",
+      "sha256": "a31d6769d538b7189ac34cc51f7e5d5fd157595d8c1fdac8f0624e7bec512d22"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "f08506be8099b1e08b28e89c307965fde9c0a9e7381265bfdf7e20101977ee04"
+    },
+    {
+      "path": "sql/00_spatial_user.sql",
+      "sha256": "9febbbd4b7b3e8ef046de9abb0a7115cbd1143133d4c21f3e64c7191d433cb9a"
+    },
+    {
+      "path": "sql/01_setup.sql",
+      "sha256": "56ea7fa7242ac223a986c4c4200bb5fdbb571e2852dde8151c2fabf1cabf37fa"
+    },
+    {
+      "path": "sql/02_repair_candidates.sql",
+      "sha256": "6757b22012fdb249a26ba2c89e27a349c46901817a241a7f8235269d41881672"
+    },
+    {
+      "path": "sql/03_calculate_and_verify.sql",
+      "sha256": "105ce3fa622f5e3e3f87bba29023a06b16323710b97ffbd5a52504135a397763"
+    },
+    {
+      "path": "sql/04_publish_results.sql",
+      "sha256": "bfa45234ccc27e9b614520743c803421e83fdb648969ae38139f85d1de63456d"
+    },
+    {
+      "path": "sql/05_verify_results.sql",
+      "sha256": "9bbc57acb7ead616b53e4eda5fefdd06df61f365ff1a0a448e4e0c68e94d73da"
+    },
+    {
+      "path": "sql/06_export_results.sql",
+      "sha256": "e9220a08d6f2c90a2b314cdf2da4a8b9f41c1c09e3cc6e996331badf2bb0deec"
+    },
+    {
+      "path": "tests/test_preprocessing.py",
+      "sha256": "4d2c2f2c4444d664383dfd55bf986b9062e36a65625af380082a7d7023b791a6"
+    },
+    {
+      "path": "unpack_gsi_zip.py",
+      "sha256": "6df54094bb309b91d2772cc147589f8a3289916d693807cef932e35c8866fc6c"
+    }
+  ]
+}
